@@ -22,7 +22,7 @@ jobs:
       - run:
           name: Build
           command: mvn -B -DskipTests clean package
-      # Then run your tests!
+      # Then run your tests!//kko
       - run:
           name: Test
           command: mvn test
