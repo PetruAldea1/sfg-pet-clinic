@@ -25,7 +25,7 @@ class OwnerSDJpaServiceTest {
     public static final String LAST_NAME = "Smith";
     Owner returnOwner;
     @Mock
-    OwnerRepository ownerRepository;
+    OwnerRepository ownerRepository;//a
     @Mock
     PetRepository petRepository;
     @Mock
